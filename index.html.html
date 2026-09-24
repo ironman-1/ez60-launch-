@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>EZ-60 激光版 · 月满上市夜 | 福州龙益集团马自达 双店同庆</title>
+<meta name="description" content="2026年9月26日 18:30，福州龙益集团马自达蓝天店、龙驭店双店同步举办EZ-60激光版上市发布会，备有茶歇美食与中秋猜灯谜活动，诚邀您到店共庆。">
+<style>
+:root{
+  --red:#d4001a; --red2:#ff2a3c; --gold:#e8c47a; --gold2:#f4dda8;
+  --ink:#07090d; --txt:#eef1f4; --txt2:#9aa4b0;
+  --line:rgba(255,255,255,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--ink);color:var(--txt);
+  font-family:"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",-apple-system,sans-serif;
+  line-height:1.7;overflow-x:hidden}
+body{background:
+  radial-gradient(900px 520px at 88% -3%, rgba(212,0,26,.22), transparent 62%),
+  radial-gradient(700px 420px at -5% 12%, rgba(232,196,122,.06), transparent 55%),
+  var(--ink)}
+img{max-width:100%;display:block;border-radius:12px}
+.wrap{width:100%;max-width:480px;margin:0 auto;position:relative}
+
+/* ===== 头图 ===== */
+.hero{position:relative;aspect-ratio:9/13.4;overflow:hidden}
+.hero img{width:100%;height:100%;object-fit:cover;object-position:center 35%;border-radius:0}
+.hero::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg, rgba(7,9,13,.10) 0%, rgba(7,9,13,.18) 46%, rgba(7,9,13,.93) 88%, var(--ink) 100%)}
+.hero-txt{position:absolute;left:0;right:0;top:7.5%;text-align:center;padding:0 22px;z-index:2}
+.hero-txt .kicker{display:inline-block;font-size:10.5px;letter-spacing:.30em;color:var(--gold2);
+  border:1px solid rgba(232,196,122,.42);border-radius:2px;padding:4px 11px;margin-bottom:13px}
+.hero-txt h1{font-size:42px;font-weight:900;letter-spacing:.02em;line-height:1.14;
+  text-shadow:0 4px 26px rgba(0,0,0,.65)}
+.hero-txt h1 small{display:block;font-size:15px;font-weight:400;letter-spacing:.26em;color:#fff;margin-top:11px}
+.hero-txt .org{margin-top:13px;font-size:11.5px;letter-spacing:.18em;color:var(--txt2)}
+.moon{position:absolute;right:24px;top:7%;width:62px;height:62px;z-index:2;opacity:.92;
+  filter:drop-shadow(0 0 18px rgba(244,221,168,.5))}
+.hero-scroll{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:2;
+  font-size:10.5px;letter-spacing:.2em;color:var(--txt2);text-align:center}
+.hero-scroll span{display:block;width:1px;height:24px;background:linear-gradient(var(--gold2),transparent);margin:7px auto 0}
+
+/* ===== 通用分块 ===== */
+section{padding:34px 24px;position:relative}
+.sec-tit{display:flex;align-items:baseline;gap:9px;margin-bottom:20px;flex-wrap:wrap}
+.sec-tit .no{font-size:10.5px;color:var(--red2);letter-spacing:.18em;font-weight:700}
+.sec-tit h2{font-size:20px;font-weight:800;letter-spacing:.02em}
+.sec-tit h2 em{font-style:normal;color:var(--red2)}
+
+/* ===== 时间地点卡 ===== */
+.when{margin:-58px 18px 0;position:relative;z-index:5;
+  background:linear-gradient(160deg,#13171f,#0c0f14);
+  border:1px solid var(--line);border-top:2px solid var(--red);
+  border-radius:14px;padding:20px 18px;
+  box-shadow:0 22px 50px -20px rgba(0,0,0,.85)}
+.when-row{display:flex;gap:14px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.when-row:last-child{border-bottom:0;padding-bottom:0}
+.when-row .ic{width:36px;height:36px;flex:0 0 36px;border-radius:9px;
+  background:rgba(212,0,26,.12);border:1px solid rgba(212,0,26,.28);
+  display:flex;align-items:center;justify-content:center;font-size:16px}
+.when-row .txt b{display:block;font-size:16px;font-weight:800;letter-spacing:.01em;line-height:1.4}
+.when-row .txt span{font-size:12px;color:var(--txt2);line-height:1.6}
+.countdown{margin-top:16px;background:rgba(212,0,26,.08);border:1px solid rgba(212,0,26,.22);
+  border-radius:10px;padding:11px 12px;text-align:center}
+.countdown p{font-size:11px;color:var(--txt2);letter-spacing:.14em;margin-bottom:8px}
+#cd{display:flex;justify-content:center;gap:7px}
+#cd div{background:#000;border:1px solid var(--line);border-radius:7px;min-width:48px;padding:5px 0}
+#cd b{display:block;font-size:20px;font-weight:900;color:var(--red2);line-height:1.1;font-variant-numeric:tabular-nums}
+#cd span{font-size:9.5px;color:var(--txt2);letter-spacing:.08em}
+
+/* ===== 双店 ===== */
+.stores{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.store{background:linear-gradient(165deg,#14181f,#0b0d11);border:1px solid var(--line);
+  border-radius:13px;padding:16px 14px;position:relative;overflow:hidden}
+.store.reco::after{content:"您已选择";position:absolute;top:11px;right:11px;font-size:9px;
+  color:var(--gold2);border:1px solid rgba(232,196,122,.4);border-radius:10px;padding:2px 7px;letter-spacing:.06em}
+.store .tag{font-size:10px;color:var(--red2);letter-spacing:.16em;font-weight:700;margin-bottom:7px}
+.store b{display:block;font-size:16.5px;font-weight:800;margin-bottom:8px}
+.store p{font-size:11.5px;color:var(--txt2);line-height:1.75}
+.store p a{color:var(--gold2);text-decoration:none;font-weight:700}
+.store .go{display:block;margin-top:11px;text-align:center;font-size:12px;font-weight:700;
+  letter-spacing:.06em;color:#fff;background:rgba(212,0,26,.16);border:1px solid rgba(212,0,26,.4);
+  border-radius:8px;padding:7px 0}
+
+/* ===== 邀请正文 ===== */
+.invite{font-size:16px;line-height:2;color:#d9dfe5;text-align:justify}
+.invite strong{color:#fff;font-weight:800}
+.invite .hl{color:var(--gold2);font-weight:700}
+.invite .rz{color:var(--red2);font-weight:800}
+.sign{margin-top:22px;text-align:right;font-size:13px;color:var(--txt2);line-height:1.9}
+
+/* ===== 看点 ===== */
+.feats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feat{background:linear-gradient(165deg,#14181f,#0b0d11);border:1px solid var(--line);
+  border-radius:12px;padding:17px 15px;position:relative;overflow:hidden}
+.feat::before{content:"";position:absolute;top:0;left:0;width:26px;height:2px;background:var(--red2)}
+.feat .n{font-size:22px;font-weight:900;color:var(--red2);line-height:1;letter-spacing:-.02em}
+.feat b{display:block;margin:11px 0 5px;font-size:14.5px;letter-spacing:.01em}
+.feat p{font-size:11.5px;color:var(--txt2);line-height:1.6}
+
+/* ===== 车型亮点 ===== */
+.car{background:linear-gradient(160deg,#13171f,#0c0f14);border:1px solid var(--line);
+  border-radius:14px;padding:16px 16px 6px}
+.car .g{font-size:11px;color:var(--gold2);letter-spacing:.12em;margin-bottom:10px}
+.car ul{list-style:none}
+.car li{display:flex;gap:11px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:13px;line-height:1.55}
+.car li:last-child{border-bottom:0}
+.car li .k{flex:0 0 76px;color:var(--red2);font-weight:700;font-size:12px;letter-spacing:.02em}
+.car li .v{color:#d9dfe5}
+
+/* ===== 流程 ===== */
+.flow{border-left:1px solid rgba(212,0,26,.32);padding-left:20px;margin-left:8px}
+.flow-item{position:relative;padding-bottom:20px}
+.flow-item:last-child{padding-bottom:0}
+.flow-item::before{content:"";position:absolute;left:-26px;top:5px;width:11px;height:11px;border-radius:50%;
+  background:var(--red);box-shadow:0 0 0 4px rgba(212,0,26,.18)}
+.flow-item .t{font-size:11.5px;color:var(--red2);letter-spacing:.10em;font-weight:700}
+.flow-item b{display:block;font-size:16px;font-weight:800;margin:3px 0 5px}
+.flow-item p{font-size:12.5px;color:var(--txt2);line-height:1.7}
+
+/* ===== 灯谜 ===== */
+.riddles{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.riddle{background:linear-gradient(165deg,#161514,#0d0c0a);border:1px solid rgba(232,196,122,.20);
+  border-radius:12px;padding:15px 14px;position:relative;overflow:hidden}
+.riddle::before{content:"谜";position:absolute;right:10px;top:8px;font-size:26px;font-weight:900;
+  color:rgba(232,196,122,.07)}
+.riddle .q{font-size:13px;font-weight:700;line-height:1.6;margin-bottom:9px;min-height:64px}
+.riddle .a{font-size:11px;color:var(--gold2);letter-spacing:.04em;border-top:1px dashed rgba(232,196,122,.22);padding-top:8px}
+.riddle .a i{font-style:normal;color:var(--txt2);font-size:10px}
+
+/* ===== 待遇 ===== */
+.perks{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.perk{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:11px;padding:13px 10px;text-align:center}
+.perk .e{font-size:20px;margin-bottom:5px}
+.perk b{display:block;font-size:13px;font-weight:700}
+.perk span{font-size:10.5px;color:var(--txt2)}
+
+/* ===== 画廊 ===== */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gal figure{margin:0}
+.gal figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line)}
+.gal figure:nth-child(3){grid-column:1 / -1}
+.gal figure:nth-child(3) img{aspect-ratio:16/9}
+.gal figcaption{font-size:11px;color:var(--txt2);margin-top:6px;line-height:1.6}
+
+/* ===== 表单 ===== */
+.form{background:linear-gradient(160deg,#13171f,#0c0f14);border:1px solid var(--line);
+  border-radius:14px;padding:19px 17px}
+.f-row{margin-bottom:12px}
+.f-row label{display:block;font-size:12px;color:var(--txt2);letter-spacing:.06em;margin-bottom:6px}
+.f-row label i{color:var(--red2);font-style:normal}
+.f-row input,.f-row select{width:100%;height:44px;border-radius:9px;
+  background:#080a0e;border:1px solid var(--line);color:var(--txt);
+  font-size:15px;font-family:inherit;padding:0 13px;outline:none;
+  -webkit-appearance:none;appearance:none}
+.f-row input:focus,.f-row select:focus{border-color:var(--red2)}
+.f-row select{background-image:linear-gradient(45deg,transparent 50%,var(--txt2) 50%),linear-gradient(135deg,var(--txt2) 50%,transparent 50%);
+  background-position:calc(100% - 18px) 20px,calc(100% - 13px) 20px;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+.store-pick{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:12px}
+.store-pick label{display:flex;flex-direction:column;justify-content:center;height:56px;border-radius:9px;
+  background:#080a0e;border:1px solid var(--line);padding:0 12px;font-size:12.5px;color:var(--txt);cursor:pointer}
+.store-pick label b{font-size:13.5px}
+.store-pick label span{font-size:10px;color:var(--txt2);line-height:1.4;margin-top:2px}
+.store-pick label.on{border-color:var(--red2);background:rgba(212,0,26,.10)}
+.store-pick input{display:none}
+.btn{display:block;width:100%;height:52px;border:0;border-radius:10px;
+  background:linear-gradient(90deg,var(--red),var(--red2));color:#fff;font-size:17px;font-weight:800;
+  letter-spacing:.14em;font-family:inherit;margin-top:4px;cursor:pointer;
+  box-shadow:0 12px 28px -10px rgba(212,0,26,.8)}
+.btn:active{transform:scale(.985)}
+.tip{font-size:10.5px;color:var(--txt2);text-align:center;margin-top:12px;line-height:1.75}
+
+/* ===== 悬浮按钮 ===== */
+.floatbar{position:fixed;left:0;right:0;bottom:0;z-index:60;max-width:480px;margin:0 auto;
+  padding:9px 14px calc(9px + env(safe-area-inset-bottom));
+  background:linear-gradient(0deg,rgba(7,9,13,.98),rgba(7,9,13,.86));
+  border-top:1px solid var(--line);display:flex;gap:10px;backdrop-filter:blur(10px)}
+.floatbar .call{flex:0 0 52px;height:52px;border-radius:11px;border:1px solid var(--line);
+  background:#11151c;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-decoration:none;font-size:9.5px;letter-spacing:.04em;line-height:1.3}
+.floatbar .call b{font-size:17px;line-height:1.2}
+.floatbar .go{flex:1;height:52px;border-radius:11px;border:0;
+  background:linear-gradient(90deg,var(--red),var(--red2));color:#fff;font-size:16px;font-weight:800;
+  letter-spacing:.12em;font-family:inherit;cursor:pointer}
+.body-pad{padding-bottom:80px}
+
+/* ===== 成功弹层 ===== */
+#ok{position:fixed;inset:0;z-index:80;background:rgba(3,4,6,.82);display:none;
+  align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(6px)}
+#ok.show{display:flex}
+#ok .box{width:100%;max-width:330px;background:linear-gradient(160deg,#161a21,#0c0e12);
+  border:1px solid var(--line);border-top:2px solid var(--gold2);border-radius:16px;padding:28px 22px;text-align:center}
+#ok .ic{font-size:40px;margin-bottom:10px}
+#ok h3{font-size:19px;font-weight:800;margin-bottom:10px}
+#ok p{font-size:12.5px;color:var(--txt2);line-height:1.9}
+#ok .num{display:inline-block;margin:13px 0 3px;font-size:11.5px;color:var(--txt2);
+  border:1px dashed var(--line);border-radius:8px;padding:8px 14px}
+#ok .num b{display:block;font-size:19px;color:var(--gold2);letter-spacing:.1em;font-weight:900}
+#ok button{margin-top:17px;width:100%;height:46px;border-radius:10px;border:1px solid var(--line);
+  background:#11151c;color:#fff;font-size:14.5px;font-family:inherit;cursor:pointer}
+
+footer{padding:28px 24px 44px;text-align:center;border-top:1px solid var(--line)}
+footer .org{font-size:15.5px;font-weight:800;letter-spacing:.05em;line-height:1.7}
+footer .org small{display:block;font-size:10.5px;font-weight:400;color:var(--txt2);letter-spacing:.14em;margin-top:4px}
+footer .addr{margin-top:15px;font-size:12.5px;color:var(--txt2);line-height:2.05}
+footer .addr a{color:var(--gold2);text-decoration:none}
+footer .rule{margin-top:17px;font-size:10px;color:#5e6874;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="wrap body-pad">
+
+  <!-- 头图 -->
+  <div class="hero">
+    <img src="https://hunyuan-plugin-1258344706.cos.ap-nanjing.myqcloud.com/pdf_youtu/img/347b65aa116a15ba97f7f6d5e6757173-image.png" alt="EZ-60 激光版上市发布会">
+    <div class="hero-txt">
+      <span class="kicker">中秋 · 双店同庆</span>
+      <h1>月满上市夜<small>EZ-60 LIDAR EDITION</small></h1>
+      <div class="org">福州龙益集团 · 长安马自达</div>
+    </div>
+    <div class="hero-scroll">向下滑动<span></span></div>
+  </div>
+
+  <!-- 时间地点 -->
+  <section>
+    <div class="when">
+      <div class="when-row">
+        <div class="ic">📅</div>
+        <div class="txt">
+          <b>2026年9月26日（周六）</b>
+          <span>18:30 正式启幕 · 建议提前 15 分钟签到入场</span>
+        </div>
+      </div>
+      <div class="when-row">
+        <div class="ic">📍</div>
+        <div class="txt">
+          <b>蓝天店 · 龙驭店 双店同步</b>
+          <span>两店内容一致，就近选择即可，<a href="#store" style="color:var(--gold2);text-decoration:none">点此选店 →</a></span>
+        </div>
+      </div>
+      <div class="when-row">
+        <div class="ic">🎫</div>
+        <div class="txt">
+          <b>凭电子邀请函入场</b>
+          <span>每场席位有限，敬请提前确认</span>
+        </div>
+      </div>
+      <div class="countdown">
+        <p>距发布会启幕还有</p>
+        <div id="cd">
+          <div><b id="dd">00</b><span>天</span></div>
+          <div><b id="hh">00</b><span>时</span></div>
+          <div><b id="mm">00</b><span>分</span></div>
+          <div><b id="ss">00</b><span>秒</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 门店 -->
+  <section id="store">
+    <div class="sec-tit"><span class="no">01 / VENUES</span><h2>两店同庆，<em>就近来</em></h2></div>
+    <div class="stores">
+      <div class="store reco" id="cardL">
+        <div class="tag">晋安区 · 蓝天店</div>
+        <b>龙益马自达 · 蓝天4S店</b>
+        <p>晋安区新店镇西庄路235号<br>（动物园公交总站对面）<br>☎ <a href="tel:059188909988">0591-8890 9988</a></p>
+        <div class="go" onclick="pickStore('蓝天店')">选择到店 →</div>
+      </div>
+      <div class="store" id="cardR">
+        <div class="tag">仓山区 · 龙驭店</div>
+        <b>龙益马自达 · 龙驭4S店</b>
+        <p>仓山区盖山投资区高南路2号<br>（2号楼，近高旺路口）<br>☎ <a href="tel:059187246338">0591-8724 6338</a></p>
+        <div class="go" onclick="pickStore('龙驭店')">选择到店 →</div>
+      </div>
+    </div>
+    <p style="font-size:11px;color:var(--txt2);margin-top:14px;line-height:1.8">
+      导航直接搜索门店全称即可到达；两店当晚流程、茶歇与猜灯谜内容完全一致，选最方便的一家就好。
+    </p>
+  </section>
+
+  <!-- 邀请正文 -->
+  <section>
+    <div class="sec-tit"><span class="no">02 / LETTER</span><h2>一封<em>邀约</em></h2></div>
+    <div class="invite">
+      月到中秋，<strong>福州龙益集团马自达</strong>想请您来展厅坐坐。<br><br>
+      9月26日晚，<span class="rz">EZ-60 激光版</span>正式上市——这是 EZ-60 新增的高阶智驾版本，车顶多了那颗激光雷达，城区与高速双域领航一次补齐。<span class="hl">蓝天店与龙驭店两店同步开场</span>，欢迎就近到店。<br><br>
+      不只是看车。当晚我们备好了<span class="hl">精致茶歇与美食</span>：5 种以上甜点、3 种以上饮料、3 种以上鲜果，摆盘就绪；还留了一片中秋灯谜区——<span class="hl">猜灯谜、做灯笼、集章兑奖</span>，答对带小礼回家。<br><br>
+      老车主叙旧，新朋友认门，孩子在手工区做灯笼，大人在冷餐台边聊车。这一晚不为别的，就为好好见一面。
+      <div class="sign">福州龙益集团 · 长安马自达<br>恭候您的光临</div>
+    </div>
+  </section>
+
+  <!-- 车型亮点 -->
+  <section>
+    <div class="sec-tit"><span class="no">03 / HIGHLIGHTS</span><h2>这一夜，<em>看点</em>在这</h2></div>
+    <div class="feats">
+      <div class="feat"><div class="n">01</div><b>激光版双店首秀</b><p>新增车顶激光雷达，双店展车同步就位，可近距品鉴。</p></div>
+      <div class="feat"><div class="n">02</div><b>高阶智驾解读</b><p>城区+高速双域NOA，销售经理现场讲清怎么用。</p></div>
+      <div class="feat"><div class="n">03</div><b>中秋猜灯谜</b><p>做灯笼、猜谜集章，亲子同场，兑奖有好礼。</p></div>
+      <div class="feat"><div class="n">04</div><b>上市政策释出</b><p>现场公布专属权益，当晚下定可享发布会礼遇。</p></div>
+    </div>
+    <div class="car">
+      <div class="g">EZ-60 激光版 · 核心信息</div>
+      <ul>
+        <li><span class="k">感知硬件</span><span class="v">1 颗禾赛 ATX 激光雷达 + 3 毫米波 + 12 超声波 + 11 高清摄像头，共 27 个感知单元，覆盖 200+ 安全辅助场景</span></li>
+        <li><span class="k">智驾能力</span><span class="v">高速 + 城区双域领航，支持上下匝道、环岛通行、绕障借道、关门泊入与记忆泊车</span></li>
+        <li><span class="k">车身尺寸</span><span class="v">4850 × 1935 × 1620mm，轴距 2902mm，中型五座轿跑 SUV</span></li>
+        <li><span class="k">动力版本</span><span class="v">增程版 CLTC 纯电 200km / 综合 1301km；纯电版 CLTC 600km，后置后驱 190kW</span></li>
+        <li><span class="k">座舱配置</span><span class="v">26.45 英寸 5K 一体屏 + 50 英寸 AR-HUD，双零重力座椅、23 扬声器杜比全景声、256 色氛围灯</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 流程 -->
+  <section>
+    <div class="sec-tit"><span class="no">04 / AGENDA</span><h2>当晚<em>流程</em></h2></div>
+    <div class="flow">
+      <div class="flow-item"><div class="t">18:15 — 18:30</div><b>签到迎宾 · 领手工材料包</b><p>核对邀请函入场，伴手礼随到随领，店头直播同步开启。</p></div>
+      <div class="flow-item"><div class="t">18:30 — 19:15</div><b>开场 · 激光版微课堂</b><p>销售经理讲解品牌故事与激光版智驾亮点，直播间同步口播。</p></div>
+      <div class="flow-item"><div class="t">19:15 — 20:15</div><b>茶歇自由交流 · 猜灯谜集章</b><p>冷餐台开放，亲子手工区做灯笼；顾问一对一答疑，可预约当晚试驾。</p></div>
+      <div class="flow-item"><div class="t">20:15 — 20:40</div><b>上市政策释出 · 大定礼遇</b><p>现场公布专属政策，直播中可同步口播线上优惠。</p></div>
+      <div class="flow-item"><div class="t">20:40 起</div><b>集章兑奖 · 合影送别</b><p>灯谜区兑奖，灯光墙前拍照打卡，发圈发帖即有好礼。</p></div>
+    </div>
+  </section>
+
+  <!-- 灯谜 -->
+  <section>
+    <div class="sec-tit"><span class="no">05 / RIDDLES</span><h2>中秋<em>猜灯谜</em></h2></div>
+    <p style="font-size:12.5px;color:var(--txt2);margin-bottom:16px;line-height:1.8">
+      到场先领灯谜笺，答对一题盖一枚章，集满即可到兑奖台换一份小礼。以下先露三题，剩下的留到当晚现场揭晓。
+    </p>
+    <div class="riddles">
+      <div class="riddle"><div class="q">红红小灯笼，高高挂树头，白天不见影，夜里满街游。（打一中秋物）</div><div class="a">谜底：<i>灯笼</i></div></div>
+      <div class="riddle"><div class="q">十五的月亮，猜一个成语。</div><div class="a">谜底：<i>正大光明</i></div></div>
+      <div class="riddle"><div class="q">四四方方一座城，城里兵马乱纷纷，只见兵马去打仗，不见一个出城门。（打一交通工具部件）</div><div class="a">谜底：<i>方向盘</i></div></div>
+      <div class="riddle"><div class="q">车队夜行不用灯，靠它也能认得清，头顶一只小眼睛，前方路况看得明。（打一汽车部件）</div><div class="a">谜底：<i>激光雷达</i></div></div>
+    </div>
+  </section>
+
+  <!-- 待遇 -->
+  <section>
+    <div class="sec-tit"><span class="no">06 / TREATS</span><h2>当晚<em>为您准备</em></h2></div>
+    <div class="perks">
+      <div class="perk"><div class="e">🍰</div><b>精致茶歇</b><span>5 种以上甜点</span></div>
+      <div class="perk"><div class="e">🥤</div><b>特调饮品</b><span>3 种以上饮料</span></div>
+      <div class="perk"><div class="e">🍇</div><b>时令鲜果</b><span>3 种以上水果</span></div>
+      <div class="perk"><div class="e">🏮</div><b>猜灯谜集章</b><span>答对兑好礼</span></div>
+      <div class="perk"><div class="e">✂️</div><b>亲子手工</b><span>灯笼材料包</span></div>
+      <div class="perk"><div class="e">🎁</div><b>伴手礼</b><span>签到即赠</span></div>
+    </div>
+  </section>
+
+  <!-- 画廊 -->
+  <section>
+    <div class="sec-tit"><span class="no">07 / GALLERY</span><h2>当晚<em>现场预览</em></h2></div>
+    <div class="gal">
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/CnTVPeRG0VO.webp?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=9dc65e980fa5530d8374a3d3b54791c0475a3953" alt="EZ-60 激光版发布现场">
+        <figcaption>激光版展车首发亮相</figcaption>
+      </figure>
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/KTE6mB5US3A?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=e136c206bf8651ad779418fbbea849910f50c937" alt="EZ-60 激光版实车">
+        <figcaption>红色车身，灯下质感</figcaption>
+      </figure>
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/9gneihFXuke?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=17ddbbcdbdcc6b951e4375939e7aba6df5bab08e" alt="茶歇冷餐台">
+        <figcaption>当晚茶歇区，甜点与水果杯已就位</figcaption>
+      </figure>
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/kV8y65WION?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=0805ebc3195a7620ae162841bfd4eb7fde444e37" alt="中秋猜灯谜现场">
+        <figcaption>猜灯谜区，红灯笼已挂起</figcaption>
+      </figure>
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/C9OSjL76y8p?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=51973ebe346637747f82e65095a9f4a2f7679f44" alt="亲子手工做灯笼">
+        <figcaption>亲子手工课堂：做一盏自己的灯笼</figcaption>
+      </figure>
+      <figure>
+        <img src="https://one-agent-prod-1343551737.cos.ap-guangzhou.myqcloud.com/artifacts/0590/428e350ec8f04a18be181276af00ab97/0QfeSJq4Ya1/task-24477e0e76da273391a7e84e7d86e51f/.rendered/_assets/83U10IluTpV.jpg?q-sign-algorithm=sha1&q-ak=AKIDDMTk0KZdUSL21fBYigcl3C8rMeiT5TdZ&q-sign-time=1790215087%3B1797991087&q-key-time=1790215087%3B1797991087&q-header-list=host&q-url-param-list=&q-signature=15a8415672b44dbccc7c89d7f65ffb72472fcd49" alt="新车揭幕现场">
+        <figcaption>新车揭幕，全场聚焦</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp">
+    <div class="sec-tit"><span class="no">08 / RSVP</span><h2>确认<em>您的席位</em></h2></div>
+    <div class="form" id="formBox">
+      <div class="store-pick" id="storePick">
+        <label class="on" data-v="蓝天店">📍 蓝天店（晋安）<b>西庄路235号</b><span>0591-8890 9988</span></label>
+        <label data-v="龙驭店">📍 龙驭店（仓山）<b>高南路2号</b><span>0591-8724 6338</span></label>
+      </div>
+      <div class="f-row">
+        <label><i>*</i> 您的姓名</label>
+        <input id="f_name" type="text" placeholder="请填写姓名">
+      </div>
+      <div class="f-row">
+        <label><i>*</i> 联系电话</label>
+        <input id="f_tel" type="tel" maxlength="11" placeholder="请填写 11 位手机号">
+      </div>
+      <div class="f-row">
+        <label><i>*</i> 同行人数</label>
+        <select id="f_num">
+          <option value="1">1 人（本人）</option>
+          <option value="2">2 人</option>
+          <option value="3">3 人（含儿童）</option>
+          <option value="4">4 人及以上</option>
+        </select>
+      </div>
+      <div class="f-row">
+        <label>是否参加猜灯谜与亲子手工</label>
+        <select id="f_riddle">
+          <option value="参加">参加，冲兑奖去的</option>
+          <option value="只聊车">以看车为主，顺便逛逛</option>
+          <option value="带小朋友">带孩子参加手工</option>
+        </select>
+      </div>
+      <div class="f-row">
+        <label>备注（车型关注点 / 其他需求）</label>
+        <input id="f_note" type="text" placeholder="如：想重点了解智驾 / 增程与纯电怎么选 / 置换政策">
+      </div>
+      <button class="btn" id="submitBtn">确认我的席位</button>
+      <p class="tip">提交即表示同意我们为本次邀约与后续服务与您联系。<br>顾问将在收到信息后与您电话确认，并发送正式电子邀请函。</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="org">福州龙益集团 · 长安马自达<small>FUZHOU LONGYI GROUP · CHANGAN MAZDA</small></div>
+    <div class="addr">
+      蓝天4S店：晋安区新店镇西庄路235号（动物园公交总站对面）☎ <a href="tel:059188909988">0591-8890 9988</a><br>
+      龙驭4S店：仓山区盖山投资区高南路2号（2号楼）☎ <a href="tel:059187246338">0591-8724 6338</a><br>
+      24小时救援热线：<a href="tel:059183389122">0591-8338 9122</a>　导航搜索门店全称即可到达
+    </div>
+    <div class="rule">
+      本邀请函仅供本次活动邀约使用 · 每店席位有限，先到先得<br>
+      现场政策与智驾功能以当日公布及官方说明为准 · 活动最终解释权归主办方所有
+    </div>
+  </footer>
+</div>
+
+<div class="floatbar">
+  <a class="call" href="tel:059188909988"><b>📞</b>电话咨询</a>
+  <button class="go" onclick="document.getElementById('rsvp').scrollIntoView({behavior:'smooth'})">确认出席席位</button>
+</div>
+
+<div id="ok">
+  <div class="box">
+    <div class="ic">🏮</div>
+    <h3>席位已为您预留</h3>
+    <p id="okText">期待 9 月 26 日 18:30，与您在展厅相见。<br>专属顾问将很快与您电话确认。</p>
+    <div class="num">您的邀请函编号<b id="code">EZ60-000000</b></div>
+    <button onclick="document.getElementById('ok').classList.remove('show')">收下这份邀约</button>
+  </div>
+</div>
+
+<script>
+var picked = '蓝天店';
+/* 倒计时 */
+(function(){
+  var target = new Date(2026, 8, 26, 18, 30, 0).getTime();
+  function pad(n){return n<10?'0'+n:''+n}
+  function tick(){
+    var d = target - Date.now();
+    if(d < 0){d = 0;}
+    var s = Math.floor(d/1000);
+    document.getElementById('dd').textContent = pad(Math.floor(s/86400));
+    document.getElementById('hh').textContent = pad(Math.floor(s%86400/3600));
+    document.getElementById('mm').textContent = pad(Math.floor(s%3600/60));
+    document.getElementById('ss').textContent = pad(s%60);
+  }
+  tick(); setInterval(tick, 1000);
+})();
+
+/* 选店 */
+function pickStore(name){
+  picked = name;
+  document.querySelectorAll('#storePick label').forEach(function(l){
+    l.classList.toggle('on', l.getAttribute('data-v') === name);
+  });
+  document.getElementById('cardL').classList.toggle('reco', name === '蓝天店');
+  document.getElementById('cardR').classList.toggle('reco', name === '龙驭店');
+  document.getElementById('rsvp').scrollIntoView({behavior:'smooth'});
+}
+document.querySelectorAll('#storePick label').forEach(function(l){
+  l.addEventListener('click', function(){ pickStore(l.getAttribute('data-v')); });
+});
+
+/* 提交 */
+document.getElementById('submitBtn').addEventListener('click', function(){
+  var name = document.getElementById('f_name').value.trim();
+  var tel = document.getElementById('f_tel').value.trim();
+  if(!name){alert('请填写您的姓名');return;}
+  if(!/^1\d{10}$/.test(tel)){alert('请填写正确的 11 位手机号');return;}
+  var n = Math.floor(Math.random()*900000 + 100000);
+  document.getElementById('code').textContent = 'EZ60-' + n;
+  document.getElementById('okText').innerHTML =
+    '已为您预留 <b style="color:#e8c47a">' + picked + '</b> 当晚席位，期待 9 月 26 日 18:30 与您相见。<br>专属顾问将很快与您电话确认。';
+  document.getElementById('ok').classList.add('show');
+});
+</script>
+</body>
+</html>
